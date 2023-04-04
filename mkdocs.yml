@@ -1,3 +1,61 @@
-site_name: My Docs
+site_name: Debris'blog
+site_url: https://ldebris.live/
+site_author: Debris
+site_description: >-
+  note and ...
+
+copyright: Copyright &copy; 2023-present <a href="https://github.com/Debris150383" target="_blank" rel="noopener noreferrer">Debris150383</a>
 theme:
   name: material
+  static_templates:
+    - 404.html
+  include_search_page: false
+  search_index_only: true
+
+  features:
+    - header.autohide
+    # - navigation.instant
+    # - navigation.expand
+    # - navigation.sections
+    - navigation.tracking
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    # - navigation.indexes
+    - search.highlight
+    - search.share
+    - search.suggest
+    # - toc.integrate
+    - content.code.annotate
+
+    font:
+    text: Roboto
+    code: Roboto Mono
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+
+plugins:
+  - i18n:
+      default_language: zh
+      material_alternate: true
+      languages:
+        zh:
+          name: 简体中文
+          build: true
+        en:
+          name: English
+          build: true
+          site_name: ldebris.live
+  - search:
+      lang: ja
+  - git-revision-date-localized
+  - minify:
+      minify_html: true
+
+extra:
+
+
+nav:
+
