@@ -28,7 +28,6 @@ theme:
     # - toc.integrate
     - content.code.annotate
 
-    font:
     text: Roboto
     code: Roboto Mono
 
