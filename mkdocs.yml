@@ -27,7 +27,7 @@ theme:
     - search.suggest
     # - toc.integrate
     - content.code.annotate
-
+  font:
     text: Roboto
     code: Roboto Mono
 
@@ -36,25 +36,25 @@ markdown_extensions:
   - md_in_html
 
 plugins:
-  - i18n:
-      default_language: zh
-      material_alternate: true
-      languages:
-        zh:
-          name: 简体中文
-          build: true
-        en:
-          name: English
-          build: true
-          site_name: ldebris.live
+#  - i18n:
+#      default_language: zh
+#      material_alternate: true
+#      languages:
+#        zh:
+#          name: 简体中文
+#          build: true
+#        en:
+#          name: English
+#          build: true
+#          site_name: ldebris.live
   - search:
       lang: ja
   - git-revision-date-localized
   - minify:
       minify_html: true
 
-extra:
+#extra:
 
 
 nav:
-
+  -opencv:"opencv.md"
