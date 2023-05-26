@@ -6,7 +6,7 @@ site_description: >-
 
 copyright: Copyright &copy; 2023-present <a href="https://github.com/Debris150383" target="_blank" rel="noopener noreferrer">Debris150383</a>
 theme:
-#  name: material
+  name: material
   static_templates:
     - 404.html
   include_search_page: false
@@ -47,11 +47,11 @@ plugins:
 #          name: English
 #          build: true
 #          site_name: ldebris.live
-#  - search:
-#      lang: ja
-#  - git-revision-date-localized
-#  - minify:
-#      minify_html: true
+  - search:
+      lang: ja
+  - git-revision-date-localized
+  - minify:
+      minify_html: true
 
 #extra:
 
