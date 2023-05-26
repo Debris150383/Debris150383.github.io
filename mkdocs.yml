@@ -47,11 +47,11 @@ plugins:
 #          name: English
 #          build: true
 #          site_name: ldebris.live
-  - search:
-      lang: ja
+#  - search:
+#      lang: ja
 #  - git-revision-date-localized
-  - minify:
-      minify_html: true
+#  - minify:
+#      minify_html: true
 
 #extra:
 
